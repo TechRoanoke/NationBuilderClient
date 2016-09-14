@@ -39,6 +39,8 @@ namespace NationBuilder
         // These may be missing 
         public string state_file_id { get; set; }
 
+        public string county_file_id {get;set;}
+
         // Name is the most useful; followup by code, then id. 
         // Beware, NationBuilder sometimes only gives back the precinct_id
         // when you query in /people and you need to do an explicit lookup to get the name. 
